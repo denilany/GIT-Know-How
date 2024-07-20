@@ -1,8 +1,7 @@
 #!/bin/bash
 
-# Default is World
-# Author: Denil Any 
-name=${1:-"World"}
+echo "What's your name"
+read my_name
 
-echo "Hello, $name"
+echo "Hello, $my_name"
 
